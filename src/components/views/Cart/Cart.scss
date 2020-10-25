@@ -1,0 +1,63 @@
+@import '../../../styles/settings';
+
+.emptyCart {
+  text-align: center;
+  text-transform: capitalize;
+}
+.emptyCart img {
+  width: 12rem;
+  margin: .3rem auto;
+  opacity: 0.6;
+}
+.cartItems {
+  width: $smallWidth;
+  margin: 0 auto;
+  max-width: $maxWidth;
+}
+.cartItems h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.cartItem {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.cartItem img {
+  width: 5rem;
+}
+.cartItem h4 {
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  letter-spacing: $mainSpacing;
+  margin-bottom: 0;
+}
+.cartItem h5 {
+  margin: 0.5rem 0;
+  letter-spacing: $mainSpacing;
+}
+.itemAmount {
+  text-align: center;
+  margin-bottom: 0;
+}
+.cartBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.removeBtn {
+  color: $darkGrey;
+  letter-spacing: $mainSpacing;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.amountBtn {
+  color: $primaryColor;
+  font-size: 1rem;
+}
+.cartContinue {
+  margin-bottom: 1rem;
+}

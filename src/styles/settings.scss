@@ -1,0 +1,33 @@
+/*
+======
+Fonts
+======
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap");
+/*
+======
+Variables
+======
+*/
+$primaryColor: #f15025;
+$primaryDarkColor: #c02c03;
+$primaryFontColor: #242424;
+$primaryFont: "Catamaran", sans-serif;
+$slantedFont: "Kaushan Script", cursive;
+$mainWhite: #fff;
+$offWhite: #f7f7f7;
+$mainBackground: #ececec;
+$mainOverlay: rgba(35, 10, 36, 0.4);
+$mainBlack: #222;
+$mainGrey: #ececec;
+$darkGrey: #afafaf;
+$mainRed: #bd0303;
+$mainTransition: all 0.3s linear;
+$mainSpacing: 0.3rem;
+$lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+$darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+$mainBorderRadius: 0.25rem;
+$maxWidth: 40rem;
+$smallWidth: 85vw;
+$fullWidth: 1170px;
+

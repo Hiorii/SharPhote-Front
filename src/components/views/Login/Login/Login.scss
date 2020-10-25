@@ -1,0 +1,89 @@
+@import '../../../../styles/settings.scss';
+
+/*
+======
+Login Form
+======
+*/
+.form {
+  width: $smallWidth;
+  margin: 0 auto;
+  max-width: $maxWidth;
+}
+.loginForm,
+.checkoutForm {
+  background: $mainWhite;
+  padding: 1.25rem 1rem;
+  text-transform: capitalize;
+  border-radius: $mainBorderRadius;
+  box-shadow: $lightShadow;
+}
+
+.formControl label {
+  display: block;
+}
+.formControl input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid $darkGrey;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.formEmpty,
+.stripeErrors {
+  text-align: center;
+  color: $mainRed;
+}
+.registerLink {
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+.registerLink button {
+  background: transparent;
+  border: none;
+  color: $primaryColor;
+  text-transform: capitalize;
+  font-size: inherit;
+  display: inline-block;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.disabled {
+  color: $mainWhite;
+  background: $darkGrey;
+  border-color: $darkGrey;
+}
+.disabled:hover {
+  background: transparent;
+  color: $darkGrey;
+  border-color: $darkGrey;
+}
+/*
+======
+Login Button
+======
+*/
+.loginBtn {
+  text-transform: capitalize;
+  background: transparent;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-family: $primaryFont;
+  margin: 0 0.25rem;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  transition: $mainTransition;
+  font-weight: 300;
+}
+.loginBtn:hover {
+  color: $primaryColor;
+}
+@media screen and (min-width: 768px) {
+  .loginBtn {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+}

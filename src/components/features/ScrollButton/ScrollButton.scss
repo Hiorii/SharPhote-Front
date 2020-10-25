@@ -1,0 +1,20 @@
+@import '../../../styles/settings.scss';
+
+.scrollBtn {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  background: $mainBlack;
+  color: $mainWhite;
+  z-index: -100;
+  opacity: 0;
+  transition: $mainTransition;
+  font-size: 2rem;
+  line-height: 0;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+.showScrollBtn {
+  z-index: 100;
+  opacity: 1;
+}

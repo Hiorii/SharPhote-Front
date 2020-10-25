@@ -1,0 +1,55 @@
+@import '../../../styles/settings.scss';
+
+.userType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userPhoto {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 1rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .5;
+  transition: $mainTransition;
+}
+.userPhoto:hover {
+  transform: scale(1.2);
+  border: 2px solid $primaryColor;
+  opacity: 1;
+}
+.btnUser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: $mainTransition;
+}
+.userPhoto:hover .btnUser {
+  opacity: 1;
+}
+
+
+
+.userBuyer {
+  background-image: url("../../../assets/userBuyer.jpg");
+}
+.userSeller {
+  background-image: url("../../../assets/userPhotographer.jpg");
+}
+.userContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.userContainer h2 {
+  text-align: center;
+  width: 100%;
+}
+
+

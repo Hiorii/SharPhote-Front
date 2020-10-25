@@ -1,0 +1,43 @@
+@import '../../../styles/settings.scss';
+
+.header {
+  padding: 2rem 0;
+}
+.logo {
+  margin: -7rem auto;
+  width: 20rem;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: $smallWidth;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: $maxWidth;
+  list-style: none;
+}
+.header ul div {
+  display: flex;
+  align-items: center;
+}
+.header a {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 0.25rem;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  transition: $mainTransition;
+  color: $primaryFontColor;
+}
+.header a:visited {
+  color: $primaryFontColor;
+}
+.header a:hover {
+  color: $primaryColor;
+}
+@media screen and (min-width: 768px) {
+  .header a {
+    font-size: 1.5rem;
+    margin: 0 0.6rem;
+  }
+}

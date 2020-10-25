@@ -1,0 +1,28 @@
+@import '../../../styles/settings.scss';
+
+.checkoutForm h3 span {
+  color: $primaryColor;
+}
+.stripeInfo {
+  font-size: 80%;
+  margin-top: 0.5rem;
+  color: $darkGrey;
+}
+.stripeInfo span {
+  color: $primaryColor;
+}
+
+.cardElement {
+  border: 2px solid $darkGrey;
+  padding: 0.5rem;
+  font-size: 4rem;
+  border-radius: $mainBorderRadius;
+}
+
+.checkoutForm .formEmpty {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.checkoutForm button {
+  margin-top: 1rem;
+}

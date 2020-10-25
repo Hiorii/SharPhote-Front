@@ -1,0 +1,13 @@
+@import '../../../styles/settings.scss';
+
+.loading {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  letter-spacing: $mainSpacing;
+}
+.img {
+  width: 10rem;
+  margin: 0 auto;
+}

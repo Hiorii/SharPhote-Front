@@ -1,0 +1,68 @@
+@import '../../../../styles/settings.scss';
+
+.productsCenter {
+  width: $smallWidth;
+  margin: 0 auto;
+  max-width: $fullWidth;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: 1.8rem;
+  row-gap: 1.8rem;
+  /* align-items: start; */
+}
+.product {
+  background: $mainWhite;
+  margin-bottom: 2rem;
+  box-shadow: $lightShadow;
+  transition: $mainTransition;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 19.69rem;
+}
+.product:hover {
+  box-shadow: $darkShadow;
+}
+.imgContainer {
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  /* height: 5rem; */
+}
+.product img {
+  transition: $mainTransition;
+  min-height: 9rem;
+}
+
+.product:hover img {
+  opacity: 0.3;
+}
+.productLink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: $mainTransition;
+}
+.product:hover .productLink {
+  opacity: 1;
+}
+.productFooter {
+  padding: 0rem 1rem 1rem 1rem;
+  text-align: center;
+  letter-spacing: $mainSpacing;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.productTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.productPrice {
+  color: $primaryColor;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}

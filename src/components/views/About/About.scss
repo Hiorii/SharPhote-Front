@@ -1,0 +1,12 @@
+@import '../../../styles/settings.scss';
+
+.aboutSection {
+  width: $smallWidth;
+  max-width: $maxWidth;
+  margin: 0 auto;
+}
+.aboutSection p {
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
